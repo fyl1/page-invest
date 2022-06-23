@@ -167,7 +167,7 @@
 
   &__item {
     font-size: 9px;
-    font-family: "Montserrat";
+    font-family: $fons;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-align: center;
@@ -229,7 +229,7 @@
   padding: 0px 24px;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.7);
-  font-family: "Montserrat", sans-serif;
+  font-family: $fons, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 20px;

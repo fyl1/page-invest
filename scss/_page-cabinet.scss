@@ -1,0 +1,480 @@
+$c_w_0_5: rgba(256, 256, 256, 0.5);
+.page{
+    & .header__inner{
+        padding: 0 35px 0 0px;
+    }
+& .hamburger-menu{
+    display: none;
+}
+
+}
+.header {
+
+    // .header__inner
+
+    &__inner {
+    }
+
+    // .header__right
+
+    &__right {
+        width: 81%;
+        height: 92px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19%;
+    max-width: 300px;
+    height: 92px;
+    min-width: 230px;
+
+
+
+    }
+}
+
+.logo {
+}
+.logo-inner {
+}
+.logo-img {
+
+    // .logo-img__blockchain
+
+    &__blockchain {
+    }
+}
+.referral {
+cursor: pointer;
+    // .referral__inner
+
+    &__inner {
+    }
+
+    // .referral__text
+
+    &__text {
+       
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: right;
+    }
+
+    // .referral__title
+
+    &__title {
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: rgb(137, 153, 169);
+        line-height: 1.2;
+        text-align: right;
+        padding-right: 20px;
+    }
+
+    // .referral__img
+
+    &__img {
+    }
+}
+.ava {
+
+    // .ava__inner
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    // .ava__img
+
+    &__img {
+       
+        background-color: rgb(25, 35, 44);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        & img{
+            border-radius: 50%;
+            width: 100%;
+
+        }
+        
+    }
+
+    // .ava__text
+
+    &__text {
+        font-size: 12px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: right;
+        margin-left: 20px;
+    }
+}
+
+.main {
+
+    // .main__inner
+
+    &__inner {
+        display: flex;
+        height: 100%;
+        min-height: 100vh;
+    }
+
+    // .main__left
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 19%;
+        max-width: 300px;
+        min-width: 230px;
+        min-height: 100vh;
+        background-color: rgb(23, 22, 28);
+        margin-top: -1px;
+    }
+
+    // .main__content
+
+    &__content {
+        padding: 50px 0 50px 45px;
+        background-image: url("../img/bac-proj.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -1px;
+    }
+
+    // .main__title
+
+    &__title {
+        font-size: 25px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: left;
+        margin-bottom: 50px
+    }
+}
+.main-inner-nav {
+
+
+}
+.menu-inner {
+    background-color: transparent;
+
+    // .menu-inner__box
+
+    &__box {
+        background-color: transparent;
+        
+        padding: 0;
+    }
+
+    // .menu-inner__li
+
+    &__li {
+        background-color: transparent;
+        padding: 25px 0 0 0  ;
+    }
+
+    // .menu-inner__item-img
+
+    &__item-img {
+        margin-right: 20px;
+width: 20px;
+height: 20px;
+& svg{
+    width: 20px;
+    height: 20px;
+}
+
+
+    }
+
+    // .menu-inner__btn
+
+    &__btn {
+    }
+    // .menu-inner__item
+
+    &__item {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        position: relative;
+        font-size: 12px;
+        font-family: "Montserrat";
+        color: darken($color: rgb(255, 255, 255), $amount: 25%);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: left;
+        background-color: transparent;
+        padding: 5px 0 5px 20%;
+        &:hover{
+            color: rgb(220, 174, 81);
+             &::after{
+             position: absolute;
+             content: "";
+             left: 0;
+             top: 0;
+             background-color: rgb(220, 174, 81);
+             box-shadow: 0px 0px 13.5px 1.5px rgba(220, 174, 81, 0.54);
+             width: 6px;
+             height: 100%;
+             }
+             &:hover .menu-inner__item-img{
+                 fill: rgb(220, 174, 81);
+             }
+        }
+    }
+}
+
+.hamburger-menu {
+}
+.cabinet {
+}
+.investment {
+    display: flex;
+
+    justify-content: space-between;
+    width: 100%;
+    max-width: 760px;
+
+    padding-bottom: 50px;
+    // .investment__title
+
+    &__title {
+        font-size: 12px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+}
+.investment-portfolio {
+
+    // .investment-portfolio__subtitle
+
+    &__subtitle {
+        font-size: 10.705px;
+        font-family: "Montserrat";
+        color: rgb(137, 153, 169);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    // .investment-portfolio__text
+
+    &__text {
+        font-size: 42px;
+        font-family: "Montserrat";
+        color: rgb(232, 183, 84);
+        line-height: 1.2;
+        text-align: left;
+
+    }
+}
+.sum {
+    margin-bottom: 45px;
+
+    // .sum__title
+
+    &__title {
+    }
+
+    // .sum__text
+
+    &__text {
+    }
+}
+
+.sum-day {
+
+    // .sum-day__title
+
+    &__title {
+    }
+
+    // .sum-day__text
+
+    &__text {
+        color: rgb(256, 256, 256);
+    }
+}
+.investment-statistics {
+    width: 50%;
+
+    // .investment-statistics__list
+
+    &__list {
+        width: 100%;
+        border-radius: 4px;
+        background-color: rgb(27, 26, 33);
+    }
+
+    // .investment-statistics__item
+
+    &__item {
+        display: flex;
+        padding: 20px 30px 20px 15px;
+        justify-content: space-between;
+        &:not(:last-child){
+            border-bottom: 1px solid darken($color: $c_w_0_5, $amount: 35%);
+        }
+        
+    }
+
+    // .investment-statistics__title
+
+    &__title {
+        font-size: 10.705px;
+        font-family: "Montserrat";
+        color: rgb(137, 153, 169);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    // .investment-statistics__text
+
+    &__text {
+        font-size: 14.662px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: right;
+    }
+}
+
+.company-news {
+    
+
+    // .company-news__title
+
+    &__title {
+        font-size: 13px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: left;
+    }
+    &__inner{
+        padding-top: 50px;
+        border-top: 2px solid rgba(103, 99, 129, 0.4);
+    }
+}
+.company-news-list {
+    padding-top: 23px;
+    max-width: 80%;
+}
+.company-news-card {
+    display: flex;
+    padding-bottom: 20px;
+    width: 100%;
+& .card-img {
+    width: 33%;
+    & img{
+        border-radius: 4px;
+    }
+    
+}
+& .card-text {
+    width: 66%;
+padding-left: 30px;
+    // .card-text__inner
+
+    &__inner {
+    }
+
+    // .card-text__title
+
+    &__title {
+        font-size: 12px;
+        font-family: "Montserrat";
+        color: darken($color: rgb(255, 255, 255), $amount: 15%);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+
+    // .card-text__text
+
+    &__text {
+        font-size: 10px;
+        font-family: "Montserrat";
+        color: darken($color: rgb(255, 255, 255), $amount: 25%);
+        font-weight: normal;
+        line-height: 1.2;
+        text-align: left;
+    }
+}
+}
+.card-text-btn {
+    margin-top: 20px;
+    max-width: 100px;
+}
+// @media (max-width: 1199px) {
+//     .investment{
+//         flex-direction: column;
+//     }
+//     .investment-statistics{
+//         width: calc(100% - 40px);
+//     }
+//     .company-news-card{
+//         flex-wrap: wrap;
+//     }
+//     .company-news-card .card-img{
+//         width: 100%;
+//     }
+//     .company-news-card .card-text{
+//         width: 100%;
+//         padding-left: 0%;
+//     }
+// }
+// @media (max-width: 767px) {
+//     .header__logo{
+//         display: none;
+//     }
+//     .header__right{
+//         width: 100%;
+//     }
+//    .main__left{
+//         display: none;
+//     }
+// }
+    
+.bell{
+    font-size: 10px;
+        font-family: "Montserrat";
+        color: darken($color: rgb(255, 255, 255), $amount: 15%);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        padding-left: 30%;
+        padding-bottom: 20px;
+      
+}

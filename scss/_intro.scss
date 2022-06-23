@@ -21,7 +21,7 @@
   &__title {
     width: 100%;
     font-size: 55px;
-    font-family: "Montserrat";
+    font-family: $fons;
     color: rgb(255, 255, 255);
     font-weight: bold;
     line-height: 1.221;
@@ -32,7 +32,7 @@
   &__subtitle {
     max-width: 90%;
     font-size: 16.667px;
-    font-family: "Montserrat";
+    font-family: $fons;
     color: darken($color: rgb(255, 255, 255), $amount: 5%);
     line-height: 1.875;
     text-align: left;

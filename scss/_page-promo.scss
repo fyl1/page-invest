@@ -1,0 +1,53 @@
+.promo {
+    display: block;
+
+    // .promo__inner
+
+    &__inner {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    // .promo__title
+
+    &__title {
+        font-size: 33px;
+        font-family: "Montserrat";
+        color:#ffffff;
+        font-weight: bold;
+        line-height: 1.2;
+        text-align:center;
+        padding-bottom: 20px;
+    }
+
+    // .promo__subtitle
+
+    &__subtitle {
+        font-size: 16px;
+        font-family: "Montserrat";
+        color:  darken($color: #ffffff, $amount: 5%);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align:center;
+        padding-bottom: 20px;
+    }
+
+    // .promo__text
+
+    &__text {
+        font-size: 10px;
+        font-family: "Montserrat";
+        color: rgb(137, 153, 169);
+        font-weight: 500;
+        line-height: 1.2;
+        text-align:center;
+        
+    }
+}
+.promo-img {
+    width: 180px;
+    height: 160px;
+}

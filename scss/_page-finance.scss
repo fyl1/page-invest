@@ -1,0 +1,384 @@
+.main {
+
+    // .main__content
+
+    &__content {
+        width: 100%;
+    }
+
+    // .main__title
+
+    &__title {
+    }
+}
+.finance {
+ &-pagination{
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+ }
+}
+.finance-top {
+display: flex;
+    // .finance-top__left
+
+    &__left {
+        width: 30%;
+    }
+
+    // .finance-top__right
+
+    &__right {
+        width: 70%;
+    }
+}
+.balance-wallet {
+
+    // .balance-wallet__inner
+
+    &__inner {
+    }
+
+    // .balance-wallet__uptitle
+
+    &__uptitle {
+        font-size: 10px;
+        font-family: "Montserrat";
+        color: rgb(137, 153, 169);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    // .balance-wallet__title
+
+    &__title {
+        font-size: 34px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+}
+.finance-btn {
+    max-width: 217px;
+    width: 100%;
+}
+
+
+
+.balance-add {
+margin-right: 35px;
+    // .balance-add__inner
+
+    &__inner {
+
+        display: flex;
+        padding:25px 30px ;
+        border-radius: 4px;
+        background-color: rgb(27, 26, 33);
+          
+    }
+
+    // .balance-add__form
+
+    &__form {
+        width: 53%;
+    }
+
+    // .balance-add__img
+
+    &__img {
+        margin: -50px 0 -60px 0;
+        width: 47%;
+        & img {
+            width: 110%;
+        }
+    }
+    &__title{
+        font-size: 10px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+}
+.modal-content {
+}
+.balance-add-input {
+
+& .input-wrapp {
+    margin-bottom: 15px;
+}
+& .input {
+height: 38px;
+max-width: 230px;
+border-radius: 4px;
+font-size: 9px;
+font-family: "Montserrat";
+color: rgba(80, 78, 99, 0.5);
+font-weight: bold;
+line-height: 1.2;
+text-align: left;
+}
+}
+.wallet-number {
+
+    // .wallet-number__input
+
+    &__input {
+    }
+}
+.top-up-amount {
+
+    // .top-up-amount__input
+
+    &__input {
+    }
+}
+.companies-img {
+    padding: 5px 0 20px 0;
+
+    // .companies-img__inner
+
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    // .companies-img__item
+
+    &__item {
+        width: 90px ;
+        height: 25px;
+        margin: 0 20px  10px 0;
+    }
+}
+.finance-history {
+    padding-right: 35px;
+    margin-top: 45px;
+
+
+     // .finance-history__title
+     &__title{
+        font-size: 10px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+     }
+
+    // .finance-history__inner
+   
+
+    &__inner {
+    }
+
+    // .finance-history__list
+
+    &__list {
+        padding: 0;
+    }
+
+    // .finance-history__header
+
+    &__header {
+        display: flex;
+        align-items: center;
+        background-color: rgba(60, 58, 75, 0.671);
+        padding-left: 45px;
+        box-sizing: border-box;
+        height: 36px;
+      
+         // .finance-history__item 
+
+        & .finance-history__item {
+            font-size: 10px;
+            font-family: "Montserrat";
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            line-height: 1.2;
+            text-align: left;
+        }
+        .date {
+            width: 17%;
+        }
+        .time {
+            width: 17%;
+        }
+        .note {
+            width: 23%;
+        }
+        .sum {
+            width: 20%;
+            margin: 0;
+        }
+        .status {
+            position: relative;
+            width: 23%;
+            
+          
+        }
+    }
+
+   
+
+    
+
+    // .finance-history__li
+
+    &__li {
+        display: flex;
+        padding-left: 45px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        background-color: rgba(23, 22, 28, 0.8);
+          // .finance-history__item
+        & .finance-history__item {
+            font-size: 9px;
+  font-family: "Montserrat";
+  color:  darken($color: rgb(255, 255, 255), $amount: 25%);
+  line-height: 1.2;
+  text-align: left;
+  padding: 12px 0 15px 0;
+        }
+        .date {
+            width: 17%;
+        }
+        .time {
+            width: 17%;
+        }
+        .note {
+            width: 23%;
+        }
+        .sum {
+            width: 20%;
+            margin: 0;
+        }
+        .status {
+          
+            width: 23%;
+            box-sizing: border-box;
+            &__completed {
+                display: none;
+                position: relative;
+                padding-left: 20px;
+                + .active{
+                    display: block;
+                    
+                }
+                &::after{
+                    content: "";
+                    position: absolute;
+                    top: 0px;
+                    left: 0;
+                    width: 9px;
+                    height: 9px;
+                 
+                    background-color: rgb(49, 204, 14);
+                    border-radius: 50%;
+    
+                    
+                }
+
+            }
+            &__process{
+                display: none;
+                position: relative;
+                padding-left: 20px;
+                + .active{
+                    display: block;
+
+                }
+                &::after{
+                    content: "";
+                    position: absolute;
+                    top: 0px;
+                    left: 0;
+                    width: 9px;
+                    height: 9px;
+                 
+                    background-color: rgb(104, 127, 242);
+                    border-radius: 50%;
+                    
+    
+                }
+
+            }
+            &__cancel{
+                display: none;
+                position: relative;
+                padding-left: 20px;
+                + .active{
+                    display: block;
+                    
+                }
+                
+                &::after{
+                    content: "";
+                    position: absolute;
+                    top: 0px;
+                    left: 0;
+                    width: 9px;
+                    height: 9px;
+                 
+                    background-color: rgb(252, 26, 26);
+                    border-radius: 50%;
+    
+                }
+
+            }
+         
+          
+
+
+        }
+    }
+}
+
+.balance-add-btn{
+    max-width: 214px;
+    width: 100%;
+}
+.pagination {
+
+
+    // .pagination__inner
+
+    &__inner {
+
+    }
+
+    // .pagination__list
+
+    &__list {
+        display: flex;
+        justify-content: center;
+    align-items: center;
+
+    }
+
+    // .pagination__item
+
+    &__item {
+        padding: 5px;
+        font-size: 11px;
+            font-family: "Montserrat";
+            color: rgb(63, 61, 78);
+            font-weight: bold;
+            line-height: 1.2;
+            text-align: center;
+            cursor: pointer;
+            &.active{
+                font-size: 12px;
+                color: #ffffff;
+            }
+    }
+}

@@ -1,5 +1,53 @@
 @charset "UTF-8";
 @font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Montserrat-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Montserrat-Bold";
   src: local("Montserrat-Bold"), url("../fonts/Montserrat-Bold.ttf") format("ttf");
 }
@@ -318,7 +366,7 @@ p {
 
 .mein-menu__item {
   font-size: 9px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: white;
   text-transform: uppercase;
   text-align: center;
@@ -381,7 +429,7 @@ p {
   padding: 0px 24px;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.7);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 20px;
@@ -589,7 +637,7 @@ p {
 .intro__title {
   width: 100%;
   font-size: 55px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: white;
   font-weight: bold;
   line-height: 1.221;
@@ -599,7 +647,7 @@ p {
 .intro__subtitle {
   max-width: 90%;
   font-size: 16.667px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #f2f2f2;
   line-height: 1.875;
   text-align: left;
@@ -862,7 +910,7 @@ p {
 
 .club-img__uptext {
   font-size: 29px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #f2f2f2;
   font-weight: bold;
   text-align: center;
@@ -896,7 +944,7 @@ p {
 
 .club-text p {
   font-size: 15px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #f2f2f2;
   line-height: 1.6;
   text-align: left;
@@ -947,7 +995,7 @@ p {
 .career__text p {
   width: 95%;
   font-size: 15px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #021315;
   line-height: 1.6;
@@ -1059,7 +1107,7 @@ p {
 .advantages-card__text {
   max-width: 80%;
   font-size: 15px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #bfbfbf;
   line-height: 1.6;
   text-align: center;
@@ -1110,7 +1158,7 @@ p {
 
 .safety__uptext {
   font-size: 16px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #d9d9d9;
   line-height: 2.321;
   text-align: center;
@@ -1165,7 +1213,7 @@ p {
 
 .safety-item__text {
   font-size: 15px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #bfbfbf;
   line-height: 1.778;
   text-align: left;
@@ -1228,7 +1276,7 @@ p {
 
 .news__title {
   font-size: 37.75px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #fefefe;
   font-weight: bold;
   text-transform: uppercase;
@@ -1257,7 +1305,7 @@ p {
 
 .news-card__title {
   font-size: 17.75px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: white;
   font-weight: bold;
   line-height: 1.778;
@@ -1283,7 +1331,7 @@ p {
 
 .news-card__text {
   font-size: 15px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #bfbfbf;
   line-height: 1.778;
   text-align: center;
@@ -1383,7 +1431,7 @@ p {
   color: #fff;
   margin-right: 60px;
   font-size: 15px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #bfbfbf;
   line-height: 1.357;
   text-align: left;
@@ -1432,7 +1480,7 @@ p {
 
 .support__email {
   font-size: 15px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #cccccc;
   line-height: 1.357;
   text-align: right;
@@ -1440,7 +1488,7 @@ p {
 
 .footer-email {
   font-size: 15px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #cccccc;
   line-height: 1.357;
   text-align: right;
@@ -1448,7 +1496,7 @@ p {
 
 .support-cop {
   font-size: 15px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: rgba(255, 255, 255, 0.502);
   line-height: 1.271;
   text-align: left;
@@ -1457,7 +1505,7 @@ p {
 
 .support-cop__title {
   font-size: 17.354px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #cccccc;
   line-height: 1.357;
   text-align: left;
@@ -1563,7 +1611,7 @@ p {
 
 .form-in__text {
   font-size: 12.667px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: white;
   line-height: 1.687;
   text-align: center;
@@ -1608,7 +1656,7 @@ p {
 
 .form-in_2__text {
   font-size: 12.667px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: white;
   line-height: 1.687;
   text-align: center;
@@ -2115,7 +2163,7 @@ p {
 
 .btn-main .btn__body .btn__text {
   font-size: 9px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #181e20;
   font-weight: bold;
   text-transform: uppercase;
@@ -2247,7 +2295,7 @@ p {
 
 .btn.register-btn .btn__body .btn__text {
   font-size: 9px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: white;
   text-transform: uppercase;
   color: #fff;
@@ -2294,7 +2342,7 @@ p {
 
 .btn-form-in .btn__body .btn__text {
   font-size: 12.792px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: white;
   font-weight: bold;
   line-height: 1.421;
@@ -2329,7 +2377,7 @@ p {
 
 .btn-card-text .btn__body .btn__text {
   font-size: 6.5px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #181e20;
   font-weight: bold;
   text-transform: inherit;
@@ -2357,7 +2405,7 @@ p {
 
 .btn-up-balance .btn__body .btn__text {
   font-size: 9.705px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #17161c;
   font-weight: bold;
   line-height: 1.2;
@@ -2405,7 +2453,7 @@ p {
 
 .btn-withdraw .btn__body .btn__text {
   font-size: 9.705px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-weight: 600;
   line-height: 1.2;
@@ -2433,7 +2481,7 @@ p {
 
 .btn-transfer-partner .btn__body .btn__text {
   font-size: 9.705px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-weight: 600;
   line-height: 1.2;
@@ -3233,7 +3281,7 @@ p {
 
 .investments-input__title {
   font-size: 9px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #8999a9;
   font-weight: bold;
   line-height: 1.5;
@@ -3249,7 +3297,7 @@ p {
   height: 26px;
   padding: 0;
   font-size: 20px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   line-height: 1.2;
   font-weight: 700;
@@ -3260,7 +3308,7 @@ p {
   height: 26px;
   padding: 0;
   font-size: 20px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   line-height: 1.2;
   font-weight: 500;
@@ -3271,7 +3319,7 @@ p {
   height: 26px;
   padding: 0;
   font-size: 20px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   line-height: 1.2;
   font-weight: 500;
@@ -3282,7 +3330,7 @@ p {
   height: 26px;
   padding: 0;
   font-size: 20px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   line-height: 1.2;
   font-weight: 500;
@@ -3293,7 +3341,7 @@ p {
   height: 26px;
   padding: 0;
   font-size: 20px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   line-height: 1.2;
   font-weight: 500;
@@ -3308,7 +3356,7 @@ p {
 
 .profitability-calculation__title {
   font-size: 12px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #bfbfbf;
   line-height: 1.2;
   text-align: center;
@@ -3345,7 +3393,7 @@ p {
 
 .profitability-calculation__subtitle {
   font-size: 10px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: rgba(230, 188, 103, 0.6);
   font-weight: bold;
   line-height: 1.2;
@@ -3355,7 +3403,7 @@ p {
 
 .profitability-calculation__text {
   font-size: 15px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-weight: bold;
   line-height: 1.2;
@@ -3364,7 +3412,7 @@ p {
 
 .profitability-calculation__profit {
   font-size: 22px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #dcae51;
   font-weight: bold;
   line-height: 1.2;
@@ -3420,9 +3468,9 @@ p {
   text-transform: uppercase;
   position: relative;
   font-size: 14px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 10px;
@@ -3442,7 +3490,7 @@ p {
 
 .investment-card .card-list__subtext {
   font-size: 8px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #bfbfbf;
   font-weight: bold;
   line-height: 1.2;
@@ -3450,10 +3498,10 @@ p {
 }
 
 .investment-card .card-list__title {
-  font-size: 22px;
-  font-family: "Montserrat";
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.2;
   text-align: center;
   padding-top: 10px;
@@ -3477,7 +3525,7 @@ p {
 
 .investment-card .card-list__text {
   font-size: 15px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #fcfcfc;
   font-weight: 400;
   line-height: 1.2;

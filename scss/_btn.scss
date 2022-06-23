@@ -16,7 +16,7 @@
 
     & .btn__text {
       font-size: 9px;
-      font-family: "Montserrat";
+      font-family: $fons;
       color: rgb(24, 30, 32);
       font-weight: bold;
       text-transform: uppercase;
@@ -113,7 +113,7 @@
 
     & .btn__text {
       font-size: 9px;
-      font-family: "Montserrat";
+      font-family: $fons;
       color: rgb(255, 255, 255);
       text-transform: uppercase;
 
@@ -148,7 +148,7 @@
 
     & .btn__text {
       font-size: 12.792px;
-      font-family: "Montserrat";
+      font-family: $fons;
       color: rgb(255, 255, 255);
       font-weight: bold;
       line-height: 1.421;
@@ -175,7 +175,7 @@
 
     & .btn__text {
       font-size: 6.5px;
-      font-family: "Montserrat";
+      font-family: $fons;
       color: rgb(24, 30, 32);
       font-weight: bold;
       text-transform: inherit;
@@ -196,7 +196,7 @@
 
     & .btn__text {
       font-size: 9.705px;
-  font-family: "Montserrat";
+  font-family: $fons;
   color: rgb(23, 22, 28);
   font-weight: bold;
   line-height: 1.2;
@@ -231,7 +231,7 @@
 
     & .btn__text {
       font-size: 9.705px;
-  font-family: "Montserrat";
+  font-family: $fons;
   color: #ffffff;
   font-weight: 600;
   line-height: 1.2;
@@ -254,7 +254,7 @@
 
     & .btn__text {
       font-size: 9.705px;
-  font-family: "Montserrat";
+  font-family: $fons;
   color: #ffffff;
   font-weight: 600;
   line-height: 1.2;

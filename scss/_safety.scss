@@ -14,7 +14,7 @@
 
   &__uptext {
     font-size: 16px;
-    font-family: "Montserrat";
+    font-family: $fons;
     color: darken($color: rgb(255, 255, 255), $amount: 15%);
     line-height: 2.321;
     text-align: center;
@@ -68,7 +68,7 @@
 
   &__text {
     font-size: 15px;
-    font-family: "Montserrat";
+    font-family: $fons;
     color: darken($color: rgb(255, 255, 255), $amount: 25%);
     line-height: 1.778;
     text-align: left;
