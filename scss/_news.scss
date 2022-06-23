@@ -1,0 +1,118 @@
+.news {
+  position: relative;
+  background-image: url("../img/bec-6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 170px 0;
+  z-index: 1;
+  // .news__inner
+
+  &__inner {
+  }
+
+  // .news__title
+
+  &__title {
+    font-size: 37.75px;
+    font-family: "Montserrat";
+    color: rgb(254, 254, 254);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.778;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+
+  // .news__list
+
+  &__list {
+  }
+  &-bitcoin {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: -40px;
+    z-index: 2;
+    & img {
+      width: 80%;
+    }
+  }
+}
+.container {
+}
+.news-card {
+  // .news-card__title
+
+  &__title {
+    font-size: 17.75px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.778;
+    text-align: center;
+    margin-bottom: 40px;
+  } 
+  &__inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 150px;
+    background-color: rgb(7, 27, 28);
+    margin: 0 180px;
+  }
+  // .news-card__text
+
+  &__text {
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: darken($color: rgb(255, 255, 255), $amount: 25%);
+    line-height: 1.778;
+    text-align: center;
+  }
+  &-btn {
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+.swiper-button-next {
+  &::after {
+    display: none;
+  }
+}
+.swiper-button-prev {
+  &::after {
+    display: none;
+  }
+}
+@media (max-width: 1199px) {
+  .news-card__inner {
+    padding: 50px 100px;
+    margin: 0 70px;
+  }
+  .news-bitcoin {
+    width: 15%;
+    margin-top: -2.5%;
+    & img {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .news {
+    padding: 70px 0 70px 0;
+  }
+  .news__title {
+    font-size: 20px;
+  }
+  .news-card__inner {
+    padding: 20px 30px;
+    margin: 0 50px;
+  }
+  .news-card__text {
+    font-size: 11px;
+  }
+}

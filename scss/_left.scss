@@ -1,0 +1,122 @@
+.left {
+  margin-top: 100px;
+  background-image: url("../img/left-bec.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  // .left__inner
+
+  &__inner {
+    background-image: url("../img/left-text.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 1px;
+  }
+
+  // .left__subtitle
+
+  &__subtitle {
+    text-align: center;
+    padding: 0 0 60px 0;
+    margin-top: -60px;
+  }
+
+  // .left__list
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+  }
+
+  // .left__item
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    width: 85px;
+    height: 80px;
+    margin-right: 7px;
+    background-color: #ff0000;
+    border-radius: 8px;
+  }
+
+  // .left__card
+
+  &__card {
+  }
+
+  // .left__img
+
+  &__img {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+  }
+
+  // .left__img--img
+
+  &__img--img {
+    width: 120px;
+    height: 120px;
+  }
+
+  // .left__title
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 80px 0;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: #fff;
+
+    &-img {
+      display: flex;
+      margin-left: 15px;
+
+      &--img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}
+.left-card {
+  // .left-card__num
+
+  &__num {
+    font-size: 44px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: #fff;
+  }
+
+  // .left-card__text
+
+  &__text {
+    font-size: 12px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: #fff;
+  }
+}
+.left-content {
+  // .left-content__title
+
+  &__title {
+    text-align: center;
+    font-size: 10px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+
+  // .left-content__text
+
+  &__text {
+    max-width: 500px;
+    text-align: center;
+    font-size: 10.5px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: #fff;
+    margin: 0 auto;
+  }
+}

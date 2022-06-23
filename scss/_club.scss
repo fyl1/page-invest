@@ -1,0 +1,71 @@
+.club {
+  background-image: url("../img/bac-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: -1px 0 0 0;
+  // .club__inner
+
+  &__inner {
+    display: flex;
+    padding: 175px 0 150px 0;
+  }
+}
+.container {
+}
+.club-img {
+  width: 50%;
+  // .club-img__uptext
+
+  &__uptext {
+    font-size: 29px;
+    font-family: "Montserrat";
+    color: darken($color: rgb(255, 255, 255), $amount: 5%);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  // .club-img__img
+
+  &__img {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    & .logo {
+      width: 72%;
+    }
+  }
+}
+.club-text {
+  width: 50%;
+  & p {
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: darken($color: rgb(255, 255, 255), $amount: 5%);
+    line-height: 1.6;
+    text-align: left;
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+}
+.text-bold {
+}
+@media (max-width: 1199px) {
+  .club__inner {
+    flex-direction: column;
+  }
+  .club-img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .club-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .club-text p {
+    font-size: 14px;
+  }
+}

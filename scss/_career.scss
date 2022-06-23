@@ -1,0 +1,75 @@
+.career {
+  position: relative;
+  background-image: url("../img/Прямоугольник\ 1\ копия\ 5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  // .career__inner
+
+  &__inner {
+    display: flex;
+    padding: 175px 0 175px 0;
+  }
+
+  // .career__text
+
+  &__text {
+    width: 50%;
+    & p {
+      width: 95%;
+      font-size: 15px;
+      font-family: "Montserrat";
+      font-weight: 600;
+      color: rgb(2, 19, 21);
+      line-height: 1.6;
+      text-align: left;
+    }
+  }
+
+  // .career__img
+
+  &__img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & img {
+      width: 60%;
+    }
+  }
+  &-bitcoin {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: -100px;
+    & img{
+    
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .career__inner {
+    flex-direction: column;
+    padding: 100px 0 100px 0;
+  }
+  .career__text {
+    order: 2;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .career__img {
+    order: 1;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .career-bitcoin {
+    width: 15%;
+    margin-bottom: -7.5%;
+    & img{
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,131 @@
+.question {
+  padding: 80px 0;
+  // .question__inner
+
+  &__inner {
+  }
+
+  // .question__subtitle
+
+  &__title {
+    text-align: center;
+    font-family: "Montserrat-Bold", sans-serif;
+    padding-bottom: 60px;
+  }
+
+  // .question__list
+
+  &__list {
+    padding: 0;
+  }
+
+  // .question__item
+
+  &__item {
+    width: 100%;
+    max-width: 665px;
+    border-radius: 5px;
+    background-color: #fcf9f9;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+.container {
+}
+.dropdown {
+}
+.question-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.question-title {
+  line-height: 2.5;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 15px;
+}
+.question-title:hover {
+  background-color: #000000;
+  color: #fff;
+  padding: 0 10px;
+}
+.question-title:hover .question-content__text {
+  display: block;
+  background-color: black;
+}
+
+.question-content {
+  background-color: #fcf9f9;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  // .question-content__title
+
+  &__title {
+    line-height: 4;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: black;
+  }
+
+  // .question-content__text
+
+  &__text {
+    height: 0px;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 11px;
+    font-family: "Montserrat-Medium", sans-serif;
+    color: black;
+
+    & p {
+      padding: 0px 20px 0px 20px;
+    }
+  }
+}
+
+.question-content.active {
+  background-color: #744af8;
+  border-radius: 5px;
+
+  // .question-content__title
+
+  & .question-content__title {
+    line-height: 4;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: #fff;
+  }
+
+  // .question-content__text
+
+  & .question-content__text {
+    height: auto;
+    text-align: center;
+    font-size: 11px;
+    font-family: "Montserrat-Medium", sans-serif;
+    color: #fff;
+    transition: 0.6s linear;
+    // transition: 0.3s;
+
+    & p {
+      padding: 5px 20px 10px 20px;
+      transition: 0.9s linear;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .question-content__title {
+    line-height: 1.5;
+    padding: 20px 15px 15px 15px;
+  }
+  .question-content.active {
+    .question-content__title {
+      line-height: 1.5;
+      padding: 20px 15px 15px 15px;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.advantages {
+  background-image: url("../img/bec-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 220px 0 230px 0;
+  margin: -1px 0 0 0;
+  // .advantages__inner
+
+  &__inner {
+  }
+
+  // .advantages__list
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.container {
+}
+.advantages-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // .advantages-card__img
+
+  &__img {
+    width: 160px;
+    height: 140px;
+    margin-bottom: 60px;
+  }
+
+  // .advantages-card__text
+
+  &__text {
+    max-width: 80%;
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: darken($color: rgb(255, 255, 255), $amount: 25%);
+    line-height: 1.6;
+    text-align: center;
+  }
+}
+@media (max-width: 1199px) {
+  .advantages {
+    padding: 100px 0 120px 0;
+  }
+  .advantages__list {
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
+  }
+  .advantages-card__img {
+    margin-bottom: 20px;
+  }
+  .advantages-card {
+    align-self: center;
+    justify-self: center;
+  }
+  
+}
+@media (max-width: 767px) {
+  .advantages__list {
+    grid-template-columns: repeat(1, 1fr);
+    justify-self: center;
+  }
+  .advantages-card {
+    margin-bottom: 20px;
+  }
+}

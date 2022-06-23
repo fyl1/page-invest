@@ -1,0 +1,365 @@
+
+.investments {
+    & .balance-wallet {
+
+        // .balance-wallet__inner
+    
+        &__inner {
+        }
+    
+        // .balance-wallet__uptitle
+    
+        &__uptitle {
+
+        }
+    
+        // .balance-wallet__title
+    
+        &__title {
+            color: rgb(220, 174, 81);
+            margin-bottom: 20px;
+        }
+    }
+}
+.investments-top {
+    display: flex;
+    margin-right: 70px;
+
+    // .investments-top__left
+
+    &__left {
+        width: 30%;
+    }
+    &__right {
+        width: 70%;
+    }
+}
+
+.investments-btn {
+}
+.investments-input {
+    max-width: 200px;
+
+    // investments-input__title
+   
+    &__title{
+        font-size: 9px;
+        font-family: "Montserrat";
+        color: rgb(137, 153, 169);
+        font-weight: bold;
+        line-height: 1.5;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+   & .input-wrapp {
+    margin-bottom: 10px;
+    }
+   & .input {
+       height: 26px;
+       padding: 0;
+       font-size: 20px;
+    font-family: "Montserrat";
+    color: #ffffff ;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+       
+ 
+    }
+    & .input::placeholder {
+        height: 26px;
+        padding: 0;
+        font-size: 20px;
+     font-family: "Montserrat";
+     color: #ffffff ;
+     line-height: 1.2;
+     font-weight: 500;
+     text-align: center;
+        
+  
+     }
+    
+}
+
+.wallet-number {
+
+    // .wallet-number__input
+
+    &__input {
+    }
+}
+.btn {
+
+    // .btn__body-wrapp
+
+    &__body-wrapp {
+    }
+
+    // .btn__body
+
+    &__body {
+    }
+
+    // .btn__text
+
+    &__text {
+    }
+
+    // .btn__icon
+
+    &__icon {
+    }
+}
+.btn-up-balance {
+}
+.btn-scroll {
+}
+.btn-modal {
+}
+.btn-main {
+}
+.finance-top {
+
+    // .finance-top__right
+
+    &__right {
+    }
+}
+.profitability-calculation {
+
+    // .profitability-calculation__inner
+
+    &__inner {
+        border-radius: 4px;
+        background-color:  rgba(27, 26, 32,  0.8);
+        padding: 25px 30px 35px 30px;
+    }
+
+    // .profitability-calculation__title
+
+    &__title {
+        font-size: 12px;
+            font-family: "Montserrat";
+            color: darken($color: rgb(255, 255, 255), $amount: 25%);
+            line-height: 1.2;
+            text-align: center;
+            margin-bottom: 20px;
+    }
+
+    // .profitability-calculation__items
+
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 5px;
+    }
+
+    // .profitability-calculation__item
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 4px;
+        background-color:  rgba(43, 45, 52,  0.6);
+        padding: 15px 0 20px 0;
+    }
+
+    // .profitability-calculation__subtitle
+
+    &__subtitle {
+        font-size: 10px;
+        font-family: "Montserrat";
+        color: rgba(230, 188, 103, 0.6);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    // .profitability-calculation__text
+
+    &__text {
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: #ffffff;
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    // .profitability-calculation__profit
+
+    &__profit {
+       
+        font-size: 22px;
+        font-family: "Montserrat";
+        color: rgb(220, 174, 81);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+    
+    }
+}
+.text-bold {
+}
+.page-investments{
+& .investment {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+  padding-right: 70px;
+  box-sizing: border-box;
+
+    // .investment__inner
+
+    &__inner {
+        width: 100%;
+    }
+
+    // .investment__title
+
+    &__title {
+    }
+
+    // .investment__list
+
+    &__list {
+       
+    }
+}
+}
+.investment-card {
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 45px 15px; 
+    grid-template-areas: 
+      ". . . ."
+      ". . . ."; 
+    justify-items: stretch; 
+    & .card {
+        
+        border-radius: 8px;
+        // background-color: rgb(35, 36, 43);
+        border:3px solid transparent;
+        padding-top: 20px 0;
+       
+        &:hover .card-list{
+        border:3px solid rgb(232, 185, 74);
+            box-shadow: 0px 17px 18px 2px rgba(232, 185, 74, 0.13);
+            transition: 0.4s;
+        }
+
+        // .card__inner
+    
+        &__inner {
+        }
+    
+        // .card__header
+    
+        &__header {
+            padding-bottom: 15px;
+        }
+    
+        // .card__title
+    
+        &__title {
+            text-transform: uppercase;
+            position: relative;
+            font-size: 14px;
+            font-family: "Montserrat";
+            color: #ffffff;
+            font-weight: 400;
+            line-height: 1.2;
+            text-align: center;
+            padding-bottom: 10px;
+           
+
+
+        }
+    }
+   & .card-list {
+      height: 140px;
+      background-color: rgb(35, 36, 43);
+      border-radius: 42px;
+    padding: 0;
+    border: 3px solid transparent;
+        // .card-list__header
+    
+        &__header {
+            // background-color: rgba(63, 67, 77, 0.278);
+            padding: 15px 0 15px 0;
+        }
+    
+        // .card-list__subtext
+    
+        &__subtext {
+            font-size: 8px;
+            font-family: "Montserrat";
+            color: darken($color: #ffffff, $amount: 25%);
+            font-weight: bold;
+            line-height: 1.2;
+            text-align:center;
+        }
+    
+        // .card-list__title
+    
+        &__title {
+            
+            font-size: 22px;
+            font-family: "Montserrat";
+            color:  #ffffff;
+            font-weight: 400;
+            line-height: 1.2;
+            text-align:center;
+            padding-top:10px;
+        }
+    
+        // .card-list__item
+    
+        &__item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    
+        // .card-list__text
+    
+        &__text {
+            font-size: 15px;
+            font-family: "Montserrat";
+            color:  darken($color: #ffffff, $amount: 1%);
+            font-weight: 400;
+            line-height: 1.2;
+            text-align:center;
+            padding-top:10px;
+              
+        }
+    }
+    
+}
+.card-list__content{
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 5px; 
+    grid-template-areas: 
+      ". . ."; 
+    justify-items: stretch; 
+    padding: 0;
+}
+.rating-star{
+    height: 12px;
+    width: 112px;
+    background-image: url("../img/star-outline-svgrepo-com.png");
+    background-repeat: repeat-x;
+    margin: 0 auto;
+}

@@ -1,0 +1,235 @@
+.intro {
+  position: relative;
+  background-image: url("../img/bac-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: -3px;
+  // .intro__inner
+
+  &__inner {
+    display: flex;
+    padding: 180px 0 200px 0;
+  }
+
+  &-wrapp {
+    width: 100%;
+    width: 675px;
+  }
+
+  // .intro__title
+
+  &__title {
+    width: 100%;
+    font-size: 55px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.221;
+    text-align: left;
+  }
+
+  // .intro__subtitle
+  &__subtitle {
+    max-width: 90%;
+    font-size: 16.667px;
+    font-family: "Montserrat";
+    color: darken($color: rgb(255, 255, 255), $amount: 5%);
+    line-height: 1.875;
+    text-align: left;
+
+    & p {
+      margin-top: 35px;
+    }
+  }
+  &-bitcoin {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    margin-bottom: -100px;
+    & img {
+      width: 80%;
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  &__item {
+    display: flex;
+    justify-content: center;
+    width: 20.5%;
+    padding: 20px;
+    margin-right: 0%;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 0px 62.1px 6.9px rgba(85, 94, 134, 0.08);
+    &:last-child {
+      background-color: #6e42f8;
+    }
+    &:last-child .intro-card__uptitle {
+      color: #fff;
+    }
+    &:last-child .intro-card__title {
+      color: #fff;
+    }
+    &:last-child .card__sub-title {
+      color: #fff;
+    }
+  }
+
+  &__card {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+  }
+  &-card {
+    &__uptitle {
+      font-size: 8.5px;
+      font-family: "Montserrat-Medium", sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: 1.2;
+      margin-bottom: 10px;
+    }
+    &__title {
+      font-size: 20px;
+      font-family: "Montserrat-Bold", sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: 1.2;
+    }
+    &__caption {
+      margin-left: 25px;
+    }
+    &__sub-title {
+      font-size: 8.5px;
+      font-family: "Montserrat-Medium", sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #9f9f9f;
+      margin-top: 5px;
+    }
+  }
+
+  &__img {
+    display: flex;
+    align-items: center;
+    &--img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  &-menu {
+    position: absolute;
+    left: 56%;
+    top: 150px;
+    width: 125px;
+    &__link {
+      font-size: 10.5px;
+      text-align: right;
+      font-family: "Montserrat-Bold", sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: black;
+    }
+    &__item {
+      text-align: right;
+    }
+  }
+}
+.intro-menu__item a:hover,
+.intro-menu__item a:focus,
+.intro-menu__item a:active {
+  color: #f3c619;
+}
+.intro-button {
+  width: 100%;
+  max-width: 235px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+@media (min-width: 480px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1686px) {
+  .intro-menu {
+    left: 54%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .intro-bitcoin {
+    width: 15%;
+    margin-bottom: -10%;
+    & img {
+      width: 100%;
+    }
+  }
+  .intro__inner {
+    padding: 150px 0 150px 0;
+  }
+}
+@media (max-width: 1100px) {
+  .intro__inner {
+    padding: 100px 0 100px 0;
+  }
+}
+@media (max-width: 991px) {
+  .intro-wrapp {
+    width: 100%;
+  }
+  .intro-menu {
+    display: none;
+  }
+  .intro__inner {
+    background-size: 60%;
+    background-position: 100% 100%;
+  }
+}
+@media (max-width: 767px) {
+  .intro__title {
+    font-size: 33px;
+  }
+  .intro-bitcoin {
+    width: 15%;
+    margin-bottom: -7.5%;
+  }
+}
+@media (max-width: 667px) {
+  .intro__item {
+    width: 41%;
+  }
+}
+@media (max-width: 539px) {
+  .intro__item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .intro__card {
+    width: 230px;
+  }
+}
+@media (max-width: 479px) {
+  .intro__inner {
+    background-size: 100%;
+    padding-bottom: 32%;
+  }
+}
+@media (max-width: 390px) {
+  .intro__inner {
+    background-size: 100%;
+    padding-bottom: 29%;
+  }
+}
